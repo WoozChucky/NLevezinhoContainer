@@ -1,8 +1,0 @@
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\obj\Debug\netstandard2.1\NLevezinho.Container.csprojAssemblyReference.cache
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\obj\Debug\netstandard2.1\NLevezinho.Container.AssemblyInfoInputs.cache
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\obj\Debug\netstandard2.1\NLevezinho.Container.AssemblyInfo.cs
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\bin\Debug\netstandard2.1\NLevezinho.Container.deps.json
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\bin\Debug\netstandard2.1\NLevezinho.Container.dll
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\bin\Debug\netstandard2.1\NLevezinho.Container.pdb
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\obj\Debug\netstandard2.1\NLevezinho.Container.dll
-C:\Development\Personal\NLevezinho.Container\NLevezinho.Container\obj\Debug\netstandard2.1\NLevezinho.Container.pdb
