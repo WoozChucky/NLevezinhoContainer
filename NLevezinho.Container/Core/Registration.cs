@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace NLevezinho.Container.Core
 {
+    [DebuggerDisplay("({Lifetime}) : {Type.FullName} - {Implementation?.FullName}")]
     internal class Registration : IRegistration
     {
         public Type Type { get; }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using NLevezinho.Container.Core;
 
@@ -139,6 +140,17 @@ namespace NLevezinho.Container.Registry
             }
 
             return false;
+        }
+
+        public Type GetSubTypeRegistered(Type baseType)
+        {
+            var type = _registrations.FirstOrDefault(reg => baseType.IsAssignableFrom(reg.Type) && reg.Type != baseType);
+            if (type != null)
+                return type.Type;
+            
+            type = _registrations.FirstOrDefault(reg => reg.Implementation != null
+                                                        && baseType.IsAssignableFrom(reg.Implementation));
+            return type?.Implementation;
         }
 
         public IRegistration Get(Type type)

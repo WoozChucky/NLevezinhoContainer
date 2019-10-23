@@ -53,8 +53,9 @@ namespace NLevezinho.Container
                             Registry.RegisterTransient(service.ServiceType);
                         }
                         break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
                 }
-                
             }
         }
 

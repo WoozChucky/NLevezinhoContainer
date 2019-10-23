@@ -26,6 +26,7 @@ namespace NLevezinho.Container.Registry
         void RegisterTransient(Type implementation);
 
         bool Registered(Type type);
+        Type GetSubTypeRegistered(Type baseType);
 
         IRegistration Get(Type type);
     }
